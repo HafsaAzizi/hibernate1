@@ -79,7 +79,7 @@ Ce projet permet de gérer l'état civil des citoyens d'une province en s'appuya
 ## Configuration de Hibernate
 Chaque projet intègre un fichier de configuration `hibernate.cfg.xml` qui définit les paramètres de la base de données et la gestion des entités :
 
-
+```xml
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
@@ -91,6 +91,7 @@ Chaque projet intègre un fichier de configuration `hibernate.cfg.xml` qui défi
         <property name="show_sql">true</property>
     </session-factory>
 </hibernate-configuration>
+```
 
 ##Prérequis
 
